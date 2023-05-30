@@ -7,17 +7,17 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiServiceService {
 
-  apiPlatzi = 'https://api.escuelajs.co/api/v1/';
+  apiPlatzi = api;
 
   constructor(
     private http: HttpClient,
   ) { }
 
   getAllProducts(){
-    return this.http.get(this.apiPlatzi + 'products');
+    return this.http.get(`${this.apiPlatzi}products`);
   }
 
   getProductById(id:number){
-    return this.http.get(this.apiPlatzi + 'products/' + id);
+    return this.http.get(`${this.apiPlatzi}products/${id}`);
   }
 }
