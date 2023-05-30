@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PruebaAngularMaterialComponent } from './prueba-angular-material/prueba-angular-material.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     BrowserModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
-    PruebaAngularMaterialComponent
+    PruebaAngularMaterialComponent,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
