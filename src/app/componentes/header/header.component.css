@@ -1,11 +1,38 @@
 .header-toolbar {
+    background-color: #2196f3; /* Color de fondo del header */
     position: fixed;
     top: 0;
     width: 100%;
   }
   
-  .header-text {
-    color: white;
-    font-size: 18px;
+  .header-title {
+    color: white; /* Color del texto del título */
+    font-size: 24px; /* Tamaño del texto del título */
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .header-menu {
+    margin-right: auto; /* Alinea los enlaces a la derecha del header */
+  }
+  
+  .header-menu a {
+    color: white; /* Color del texto de los enlaces */
+    font-size: 16px; /* Tamaño del texto de los enlaces */
+    text-decoration: none;
+    margin-right: 10px; /* Espacio entre los enlaces */
+    transition: color 0.3s; /* Transición suave para el cambio de color al pasar el cursor */
+  }
+  
+  .header-menu a:hover {
+    color: #ffc107; /* Color del texto de los enlaces al pasar el cursor */
+  }
+  
+  .header-buttons {
+    margin-left: 20px;
+  }
+  
+  .header-buttons button {
+    margin-right: 10px; /* Espacio entre los botones */
   }
   

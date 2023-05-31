@@ -1,11 +1,13 @@
 .footer-toolbar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .footer-text {
-    color: white;
-    font-size: 16px;
-  }
-  
+  background-color: #2196f3; /* Color de fondo del footer */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  color: white; /* Color del texto del footer */
+  font-size: 16px; /* Tamaño del texto del footer */
+  padding: 10px; /* Espacio interno del texto del footer */
+  text-align: center;
+}
