@@ -1,0 +1,11 @@
+.footer-toolbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-text {
+    color: white;
+    font-size: 16px;
+  }
+  
