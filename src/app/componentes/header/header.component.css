@@ -1,0 +1,11 @@
+.header-toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .header-text {
+    color: white;
+    font-size: 18px;
+  }
+  
