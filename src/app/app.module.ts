@@ -6,10 +6,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PruebaAngularMaterialComponent } from './prueba-angular-material/prueba-angular-material.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { HttpClientModule } from '@angular/common/http';
+import { DetallesComponent } from './detalles/detalles.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DetallesComponent
   ],
   imports: [
     BrowserModule,

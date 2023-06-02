@@ -1,0 +1,22 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .company-info {
+      margin-bottom: 20px;
+    }
+    
+    .company-info p {
+      margin: 5px 0;
+    }
