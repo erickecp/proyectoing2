@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HomeComponent } from './home/home.component';
     PruebaAngularMaterialComponent,
     HttpClientModule,
     MatToolbarModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
